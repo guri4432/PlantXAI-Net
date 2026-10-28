@@ -1,0 +1,27 @@
+﻿__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+.env
+.env.*
+!.env.example
+
+dataset/PlantVillage/
+dataset/PlantDoc/
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Model checkpoints and pretrained weights
+models/baselines/*.pth
+models/baselines/checkpoints/*.pth
+models/checkpoints/*.pth
+
+# Local Gradio state
+.gradio/

@@ -1,0 +1,431 @@
+2026-07-28 15:05:10,352 | INFO | ================================================================================
+2026-07-28 15:05:10,353 | INFO | PlantXAI-Net Dataset Balancing
+2026-07-28 15:05:10,354 | INFO | Phase 1 (Version 2.0) Initialized Successfully
+2026-07-28 15:05:10,358 | INFO | Input Dataset        : D:\PlantXAI-Net\dataset\PlantVillage\split\train
+2026-07-28 15:05:10,369 | INFO | Output Dataset       : D:\PlantXAI-Net\dataset\PlantVillage\balanced
+2026-07-28 15:05:10,384 | INFO | Reports Directory    : D:\PlantXAI-Net\results\reports
+2026-07-28 15:05:10,386 | INFO | Target Images/Class  : 1500
+2026-07-28 15:05:10,387 | INFO | Random Seed          : 42
+2026-07-28 15:05:10,388 | INFO | ================================================================================
+2026-07-28 15:05:10,390 | INFO | Program Started
+2026-07-28 15:05:10,391 | INFO | ================================================================================
+2026-07-28 15:05:10,391 | INFO | Starting Dataset Balancing
+2026-07-28 15:05:10,392 | INFO | ================================================================================
+2026-07-28 15:05:10,398 | INFO | Total Classes Found : 38
+2026-07-28 15:05:10,399 | INFO | ======================================================================
+2026-07-28 15:05:10,400 | INFO | Processing Class : Apple___Apple_scab
+2026-07-28 15:05:10,401 | INFO | ======================================================================
+2026-07-28 15:05:10,517 | INFO | Original Images : 504
+2026-07-28 15:05:11,459 | INFO | Copy Summary | Copied: 504 | Skipped: 0 | Failed: 0
+2026-07-28 15:05:11,507 | INFO | Images After Copy : 504
+2026-07-28 15:05:11,508 | INFO | Required Augmentation : 996
+2026-07-28 15:05:11,510 | INFO | Starting augmentation...
+2026-07-28 15:05:26,324 | INFO | Generated 996 augmented images.
+2026-07-28 15:05:26,464 | INFO | Final Image Count : 1500
+2026-07-28 15:05:26,465 | INFO | Processing Status : Balanced
+2026-07-28 15:05:26,467 | INFO | ======================================================================
+2026-07-28 15:05:26,468 | INFO | Processing Class : Apple___Black_rot
+2026-07-28 15:05:26,469 | INFO | ======================================================================
+2026-07-28 15:05:26,603 | INFO | Original Images : 496
+2026-07-28 15:05:27,480 | INFO | Copy Summary | Copied: 496 | Skipped: 0 | Failed: 0
+2026-07-28 15:05:27,522 | INFO | Images After Copy : 496
+2026-07-28 15:05:27,522 | INFO | Required Augmentation : 1004
+2026-07-28 15:05:27,523 | INFO | Starting augmentation...
+2026-07-28 15:05:42,561 | INFO | Generated 1004 augmented images.
+2026-07-28 15:05:42,679 | INFO | Final Image Count : 1500
+2026-07-28 15:05:42,680 | INFO | Processing Status : Balanced
+2026-07-28 15:05:42,681 | INFO | ======================================================================
+2026-07-28 15:05:42,682 | INFO | Processing Class : Apple___Cedar_apple_rust
+2026-07-28 15:05:42,682 | INFO | ======================================================================
+2026-07-28 15:05:42,750 | INFO | Original Images : 220
+2026-07-28 15:05:43,148 | INFO | Copy Summary | Copied: 220 | Skipped: 0 | Failed: 0
+2026-07-28 15:05:43,167 | INFO | Images After Copy : 220
+2026-07-28 15:05:43,168 | INFO | Required Augmentation : 1280
+2026-07-28 15:05:43,169 | INFO | Starting augmentation...
+2026-07-28 15:05:54,821 | INFO | Generated 1280 augmented images.
+2026-07-28 15:05:54,931 | INFO | Final Image Count : 1500
+2026-07-28 15:05:54,932 | INFO | Processing Status : Balanced
+2026-07-28 15:05:54,933 | INFO | ======================================================================
+2026-07-28 15:05:54,934 | INFO | Processing Class : Apple___healthy
+2026-07-28 15:05:54,934 | INFO | ======================================================================
+2026-07-28 15:05:55,212 | INFO | Original Images : 1316
+2026-07-28 15:05:57,461 | INFO | Copy Summary | Copied: 1316 | Skipped: 0 | Failed: 0
+2026-07-28 15:05:57,576 | INFO | Images After Copy : 1316
+2026-07-28 15:05:57,577 | INFO | Required Augmentation : 184
+2026-07-28 15:05:57,578 | INFO | Starting augmentation...
+2026-07-28 15:06:02,169 | INFO | Generated 184 augmented images.
+2026-07-28 15:06:02,323 | INFO | Final Image Count : 1500
+2026-07-28 15:06:02,326 | INFO | Processing Status : Balanced
+2026-07-28 15:06:02,329 | INFO | ======================================================================
+2026-07-28 15:06:02,329 | INFO | Processing Class : Blueberry___healthy
+2026-07-28 15:06:02,333 | INFO | ======================================================================
+2026-07-28 15:06:02,604 | INFO | Original Images : 1201
+2026-07-28 15:06:04,711 | INFO | Copy Summary | Copied: 1201 | Skipped: 0 | Failed: 0
+2026-07-28 15:06:04,803 | INFO | Images After Copy : 1201
+2026-07-28 15:06:04,803 | INFO | Required Augmentation : 299
+2026-07-28 15:06:04,804 | INFO | Starting augmentation...
+2026-07-28 15:06:13,175 | INFO | Generated 299 augmented images.
+2026-07-28 15:06:13,297 | INFO | Final Image Count : 1500
+2026-07-28 15:06:13,297 | INFO | Processing Status : Balanced
+2026-07-28 15:06:13,299 | INFO | ======================================================================
+2026-07-28 15:06:13,300 | INFO | Processing Class : Cherry_(including_sour)___healthy
+2026-07-28 15:06:13,300 | INFO | ======================================================================
+2026-07-28 15:06:13,459 | INFO | Original Images : 683
+2026-07-28 15:06:14,737 | INFO | Copy Summary | Copied: 683 | Skipped: 0 | Failed: 0
+2026-07-28 15:06:14,790 | INFO | Images After Copy : 683
+2026-07-28 15:06:14,791 | INFO | Required Augmentation : 817
+2026-07-28 15:06:14,792 | INFO | Starting augmentation...
+2026-07-28 15:06:30,268 | INFO | Generated 817 augmented images.
+2026-07-28 15:06:30,391 | INFO | Final Image Count : 1500
+2026-07-28 15:06:30,392 | INFO | Processing Status : Balanced
+2026-07-28 15:06:30,394 | INFO | ======================================================================
+2026-07-28 15:06:30,394 | INFO | Processing Class : Cherry_(including_sour)___Powdery_mildew
+2026-07-28 15:06:30,395 | INFO | ======================================================================
+2026-07-28 15:06:30,590 | INFO | Original Images : 841
+2026-07-28 15:06:32,132 | INFO | Copy Summary | Copied: 841 | Skipped: 0 | Failed: 0
+2026-07-28 15:06:32,193 | INFO | Images After Copy : 841
+2026-07-28 15:06:32,193 | INFO | Required Augmentation : 659
+2026-07-28 15:06:32,195 | INFO | Starting augmentation...
+2026-07-28 15:06:45,044 | INFO | Generated 659 augmented images.
+2026-07-28 15:06:45,167 | INFO | Final Image Count : 1500
+2026-07-28 15:06:45,167 | INFO | Processing Status : Balanced
+2026-07-28 15:06:45,169 | INFO | ======================================================================
+2026-07-28 15:06:45,169 | INFO | Processing Class : Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+2026-07-28 15:06:45,170 | INFO | ======================================================================
+2026-07-28 15:06:45,263 | INFO | Original Images : 410
+2026-07-28 15:06:45,927 | INFO | Copy Summary | Copied: 410 | Skipped: 0 | Failed: 0
+2026-07-28 15:06:45,958 | INFO | Images After Copy : 410
+2026-07-28 15:06:45,959 | INFO | Required Augmentation : 1090
+2026-07-28 15:06:45,960 | INFO | Starting augmentation...
+2026-07-28 15:07:00,484 | INFO | Generated 1090 augmented images.
+2026-07-28 15:07:00,594 | INFO | Final Image Count : 1500
+2026-07-28 15:07:00,595 | INFO | Processing Status : Balanced
+2026-07-28 15:07:00,596 | INFO | ======================================================================
+2026-07-28 15:07:00,597 | INFO | Processing Class : Corn_(maize)___Common_rust_
+2026-07-28 15:07:00,597 | INFO | ======================================================================
+2026-07-28 15:07:00,783 | INFO | Original Images : 953
+2026-07-28 15:07:02,404 | INFO | Copy Summary | Copied: 953 | Skipped: 0 | Failed: 0
+2026-07-28 15:07:02,478 | INFO | Images After Copy : 953
+2026-07-28 15:07:02,479 | INFO | Required Augmentation : 547
+2026-07-28 15:07:02,480 | INFO | Starting augmentation...
+2026-07-28 15:07:13,760 | INFO | Generated 547 augmented images.
+2026-07-28 15:07:13,892 | INFO | Final Image Count : 1500
+2026-07-28 15:07:13,893 | INFO | Processing Status : Balanced
+2026-07-28 15:07:13,895 | INFO | ======================================================================
+2026-07-28 15:07:13,895 | INFO | Processing Class : Corn_(maize)___healthy
+2026-07-28 15:07:13,896 | INFO | ======================================================================
+2026-07-28 15:07:14,141 | INFO | Original Images : 929
+2026-07-28 15:07:15,813 | INFO | Copy Summary | Copied: 929 | Skipped: 0 | Failed: 0
+2026-07-28 15:07:15,920 | INFO | Images After Copy : 929
+2026-07-28 15:07:15,921 | INFO | Required Augmentation : 571
+2026-07-28 15:07:15,921 | INFO | Starting augmentation...
+2026-07-28 15:07:26,578 | INFO | Generated 571 augmented images.
+2026-07-28 15:07:26,686 | INFO | Final Image Count : 1500
+2026-07-28 15:07:26,687 | INFO | Processing Status : Balanced
+2026-07-28 15:07:26,688 | INFO | ======================================================================
+2026-07-28 15:07:26,688 | INFO | Processing Class : Corn_(maize)___Northern_Leaf_Blight
+2026-07-28 15:07:26,689 | INFO | ======================================================================
+2026-07-28 15:07:26,864 | INFO | Original Images : 788
+2026-07-28 15:07:28,192 | INFO | Copy Summary | Copied: 788 | Skipped: 0 | Failed: 0
+2026-07-28 15:07:28,250 | INFO | Images After Copy : 788
+2026-07-28 15:07:28,251 | INFO | Required Augmentation : 712
+2026-07-28 15:07:28,252 | INFO | Starting augmentation...
+2026-07-28 15:07:43,264 | INFO | Generated 712 augmented images.
+2026-07-28 15:07:43,376 | INFO | Final Image Count : 1500
+2026-07-28 15:07:43,377 | INFO | Processing Status : Balanced
+2026-07-28 15:07:43,378 | INFO | ======================================================================
+2026-07-28 15:07:43,378 | INFO | Processing Class : Grape___Black_rot
+2026-07-28 15:07:43,379 | INFO | ======================================================================
+2026-07-28 15:07:43,656 | INFO | Original Images : 944
+2026-07-28 15:07:45,263 | INFO | Copy Summary | Copied: 944 | Skipped: 0 | Failed: 0
+2026-07-28 15:07:45,356 | INFO | Images After Copy : 944
+2026-07-28 15:07:45,357 | INFO | Required Augmentation : 556
+2026-07-28 15:07:45,358 | INFO | Starting augmentation...
+2026-07-28 15:07:57,286 | INFO | Generated 556 augmented images.
+2026-07-28 15:07:57,417 | INFO | Final Image Count : 1500
+2026-07-28 15:07:57,418 | INFO | Processing Status : Balanced
+2026-07-28 15:07:57,420 | INFO | ======================================================================
+2026-07-28 15:07:57,420 | INFO | Processing Class : Grape___Esca_(Black_Measles)
+2026-07-28 15:07:57,421 | INFO | ======================================================================
+2026-07-28 15:07:57,627 | INFO | Original Images : 1106
+2026-07-28 15:07:59,548 | INFO | Copy Summary | Copied: 1106 | Skipped: 0 | Failed: 0
+2026-07-28 15:07:59,638 | INFO | Images After Copy : 1106
+2026-07-28 15:07:59,639 | INFO | Required Augmentation : 394
+2026-07-28 15:07:59,640 | INFO | Starting augmentation...
+2026-07-28 15:08:09,041 | INFO | Generated 394 augmented images.
+2026-07-28 15:08:09,161 | INFO | Final Image Count : 1500
+2026-07-28 15:08:09,161 | INFO | Processing Status : Balanced
+2026-07-28 15:08:09,163 | INFO | ======================================================================
+2026-07-28 15:08:09,163 | INFO | Processing Class : Grape___healthy
+2026-07-28 15:08:09,164 | INFO | ======================================================================
+2026-07-28 15:08:09,250 | INFO | Original Images : 338
+2026-07-28 15:08:09,822 | INFO | Copy Summary | Copied: 338 | Skipped: 0 | Failed: 0
+2026-07-28 15:08:09,851 | INFO | Images After Copy : 338
+2026-07-28 15:08:09,852 | INFO | Required Augmentation : 1162
+2026-07-28 15:08:09,852 | INFO | Starting augmentation...
+2026-07-28 15:08:23,650 | INFO | Generated 1162 augmented images.
+2026-07-28 15:08:23,755 | INFO | Final Image Count : 1500
+2026-07-28 15:08:23,756 | INFO | Processing Status : Balanced
+2026-07-28 15:08:23,757 | INFO | ======================================================================
+2026-07-28 15:08:23,757 | INFO | Processing Class : Grape___Leaf_blight_(Isariopsis_Leaf_Spot)
+2026-07-28 15:08:23,757 | INFO | ======================================================================
+2026-07-28 15:08:23,973 | INFO | Original Images : 860
+2026-07-28 15:08:25,522 | INFO | Copy Summary | Copied: 860 | Skipped: 0 | Failed: 0
+2026-07-28 15:08:25,588 | INFO | Images After Copy : 860
+2026-07-28 15:08:25,588 | INFO | Required Augmentation : 640
+2026-07-28 15:08:25,589 | INFO | Starting augmentation...
+2026-07-28 15:08:41,226 | INFO | Generated 640 augmented images.
+2026-07-28 15:08:41,353 | INFO | Final Image Count : 1500
+2026-07-28 15:08:41,353 | INFO | Processing Status : Balanced
+2026-07-28 15:08:41,355 | INFO | ======================================================================
+2026-07-28 15:08:41,355 | INFO | Processing Class : Orange___Haunglongbing_(Citrus_greening)
+2026-07-28 15:08:41,356 | INFO | ======================================================================
+2026-07-28 15:08:42,403 | INFO | Original Images : 4405
+2026-07-28 15:08:52,104 | INFO | Copy Summary | Copied: 4405 | Skipped: 0 | Failed: 0
+2026-07-28 15:08:52,422 | INFO | Images After Copy : 4405
+2026-07-28 15:08:52,423 | INFO | Required Augmentation : 0
+2026-07-28 15:08:52,423 | INFO | Target already achieved.
+2026-07-28 15:08:52,428 | INFO | ======================================================================
+2026-07-28 15:08:52,429 | INFO | Processing Class : Peach___Bacterial_spot
+2026-07-28 15:08:52,430 | INFO | ======================================================================
+2026-07-28 15:08:52,866 | INFO | Original Images : 1837
+2026-07-28 15:08:55,954 | INFO | Copy Summary | Copied: 1837 | Skipped: 0 | Failed: 0
+2026-07-28 15:08:56,106 | INFO | Images After Copy : 1837
+2026-07-28 15:08:56,107 | INFO | Required Augmentation : 0
+2026-07-28 15:08:56,108 | INFO | Target already achieved.
+2026-07-28 15:08:56,111 | INFO | ======================================================================
+2026-07-28 15:08:56,111 | INFO | Processing Class : Peach___healthy
+2026-07-28 15:08:56,112 | INFO | ======================================================================
+2026-07-28 15:08:56,177 | INFO | Original Images : 288
+2026-07-28 15:08:56,712 | INFO | Copy Summary | Copied: 288 | Skipped: 0 | Failed: 0
+2026-07-28 15:08:56,732 | INFO | Images After Copy : 288
+2026-07-28 15:08:56,732 | INFO | Required Augmentation : 1212
+2026-07-28 15:08:56,733 | INFO | Starting augmentation...
+2026-07-28 15:09:09,822 | INFO | Generated 1212 augmented images.
+2026-07-28 15:09:09,929 | INFO | Final Image Count : 1500
+2026-07-28 15:09:09,930 | INFO | Processing Status : Balanced
+2026-07-28 15:09:09,931 | INFO | ======================================================================
+2026-07-28 15:09:09,932 | INFO | Processing Class : Pepper,_bell___Bacterial_spot
+2026-07-28 15:09:09,932 | INFO | ======================================================================
+2026-07-28 15:09:10,150 | INFO | Original Images : 797
+2026-07-28 15:09:11,499 | INFO | Copy Summary | Copied: 797 | Skipped: 0 | Failed: 0
+2026-07-28 15:09:11,565 | INFO | Images After Copy : 797
+2026-07-28 15:09:11,566 | INFO | Required Augmentation : 703
+2026-07-28 15:09:11,567 | INFO | Starting augmentation...
+2026-07-28 15:09:25,463 | INFO | Generated 703 augmented images.
+2026-07-28 15:09:25,584 | INFO | Final Image Count : 1500
+2026-07-28 15:09:25,585 | INFO | Processing Status : Balanced
+2026-07-28 15:09:25,587 | INFO | ======================================================================
+2026-07-28 15:09:25,587 | INFO | Processing Class : Pepper,_bell___healthy
+2026-07-28 15:09:25,588 | INFO | ======================================================================
+2026-07-28 15:09:25,798 | INFO | Original Images : 1182
+2026-07-28 15:09:27,895 | INFO | Copy Summary | Copied: 1182 | Skipped: 0 | Failed: 0
+2026-07-28 15:09:27,989 | INFO | Images After Copy : 1182
+2026-07-28 15:09:27,989 | INFO | Required Augmentation : 318
+2026-07-28 15:09:27,990 | INFO | Starting augmentation...
+2026-07-28 15:09:35,394 | INFO | Generated 318 augmented images.
+2026-07-28 15:09:35,570 | INFO | Final Image Count : 1500
+2026-07-28 15:09:35,571 | INFO | Processing Status : Balanced
+2026-07-28 15:09:35,572 | INFO | ======================================================================
+2026-07-28 15:09:35,573 | INFO | Processing Class : Potato___Early_blight
+2026-07-28 15:09:35,573 | INFO | ======================================================================
+2026-07-28 15:09:35,722 | INFO | Original Images : 800
+2026-07-28 15:09:37,249 | INFO | Copy Summary | Copied: 800 | Skipped: 0 | Failed: 0
+2026-07-28 15:09:37,325 | INFO | Images After Copy : 800
+2026-07-28 15:09:37,326 | INFO | Required Augmentation : 700
+2026-07-28 15:09:37,326 | INFO | Starting augmentation...
+2026-07-28 15:09:53,393 | INFO | Generated 700 augmented images.
+2026-07-28 15:09:53,534 | INFO | Final Image Count : 1500
+2026-07-28 15:09:53,535 | INFO | Processing Status : Balanced
+2026-07-28 15:09:53,537 | INFO | ======================================================================
+2026-07-28 15:09:53,537 | INFO | Processing Class : Potato___healthy
+2026-07-28 15:09:53,538 | INFO | ======================================================================
+2026-07-28 15:09:53,572 | INFO | Original Images : 121
+2026-07-28 15:09:53,790 | INFO | Copy Summary | Copied: 121 | Skipped: 0 | Failed: 0
+2026-07-28 15:09:53,803 | INFO | Images After Copy : 121
+2026-07-28 15:09:53,804 | INFO | Required Augmentation : 1379
+2026-07-28 15:09:53,805 | INFO | Starting augmentation...
+2026-07-28 15:10:07,146 | INFO | Generated 1379 augmented images.
+2026-07-28 15:10:07,262 | INFO | Final Image Count : 1500
+2026-07-28 15:10:07,263 | INFO | Processing Status : Balanced
+2026-07-28 15:10:07,263 | INFO | ======================================================================
+2026-07-28 15:10:07,264 | INFO | Processing Class : Potato___Late_blight
+2026-07-28 15:10:07,265 | INFO | ======================================================================
+2026-07-28 15:10:07,514 | INFO | Original Images : 800
+2026-07-28 15:10:08,997 | INFO | Copy Summary | Copied: 800 | Skipped: 0 | Failed: 0
+2026-07-28 15:10:09,071 | INFO | Images After Copy : 800
+2026-07-28 15:10:09,072 | INFO | Required Augmentation : 700
+2026-07-28 15:10:09,073 | INFO | Starting augmentation...
+2026-07-28 15:10:22,880 | INFO | Generated 700 augmented images.
+2026-07-28 15:10:23,018 | INFO | Final Image Count : 1500
+2026-07-28 15:10:23,019 | INFO | Processing Status : Balanced
+2026-07-28 15:10:23,021 | INFO | ======================================================================
+2026-07-28 15:10:23,021 | INFO | Processing Class : Raspberry___healthy
+2026-07-28 15:10:23,022 | INFO | ======================================================================
+2026-07-28 15:10:23,103 | INFO | Original Images : 296
+2026-07-28 15:10:23,644 | INFO | Copy Summary | Copied: 296 | Skipped: 0 | Failed: 0
+2026-07-28 15:10:23,670 | INFO | Images After Copy : 296
+2026-07-28 15:10:23,671 | INFO | Required Augmentation : 1204
+2026-07-28 15:10:23,672 | INFO | Starting augmentation...
+2026-07-28 15:10:39,099 | INFO | Generated 1204 augmented images.
+2026-07-28 15:10:39,245 | INFO | Final Image Count : 1500
+2026-07-28 15:10:39,245 | INFO | Processing Status : Balanced
+2026-07-28 15:10:39,246 | INFO | ======================================================================
+2026-07-28 15:10:39,247 | INFO | Processing Class : Soybean___healthy
+2026-07-28 15:10:39,248 | INFO | ======================================================================
+2026-07-28 15:10:40,210 | INFO | Original Images : 4072
+2026-07-28 15:10:47,654 | INFO | Copy Summary | Copied: 4072 | Skipped: 0 | Failed: 0
+2026-07-28 15:10:48,054 | INFO | Images After Copy : 4072
+2026-07-28 15:10:48,055 | INFO | Required Augmentation : 0
+2026-07-28 15:10:48,055 | INFO | Target already achieved.
+2026-07-28 15:10:48,059 | INFO | ======================================================================
+2026-07-28 15:10:48,060 | INFO | Processing Class : Squash___Powdery_mildew
+2026-07-28 15:10:48,061 | INFO | ======================================================================
+2026-07-28 15:10:48,426 | INFO | Original Images : 1468
+2026-07-28 15:10:51,057 | INFO | Copy Summary | Copied: 1468 | Skipped: 0 | Failed: 0
+2026-07-28 15:10:51,213 | INFO | Images After Copy : 1468
+2026-07-28 15:10:51,215 | INFO | Required Augmentation : 32
+2026-07-28 15:10:51,215 | INFO | Starting augmentation...
+2026-07-28 15:10:52,376 | INFO | Generated 32 augmented images.
+2026-07-28 15:10:52,515 | INFO | Final Image Count : 1500
+2026-07-28 15:10:52,516 | INFO | Processing Status : Balanced
+2026-07-28 15:10:52,518 | INFO | ======================================================================
+2026-07-28 15:10:52,518 | INFO | Processing Class : Strawberry___healthy
+2026-07-28 15:10:52,519 | INFO | ======================================================================
+2026-07-28 15:10:52,612 | INFO | Original Images : 364
+2026-07-28 15:10:53,294 | INFO | Copy Summary | Copied: 364 | Skipped: 0 | Failed: 0
+2026-07-28 15:10:53,335 | INFO | Images After Copy : 364
+2026-07-28 15:10:53,336 | INFO | Required Augmentation : 1136
+2026-07-28 15:10:53,336 | INFO | Starting augmentation...
+2026-07-28 15:11:09,356 | INFO | Generated 1136 augmented images.
+2026-07-28 15:11:09,479 | INFO | Final Image Count : 1500
+2026-07-28 15:11:09,480 | INFO | Processing Status : Balanced
+2026-07-28 15:11:09,481 | INFO | ======================================================================
+2026-07-28 15:11:09,482 | INFO | Processing Class : Strawberry___Leaf_scorch
+2026-07-28 15:11:09,482 | INFO | ======================================================================
+2026-07-28 15:11:09,744 | INFO | Original Images : 887
+2026-07-28 15:11:11,327 | INFO | Copy Summary | Copied: 887 | Skipped: 0 | Failed: 0
+2026-07-28 15:11:11,401 | INFO | Images After Copy : 887
+2026-07-28 15:11:11,402 | INFO | Required Augmentation : 613
+2026-07-28 15:11:11,402 | INFO | Starting augmentation...
+2026-07-28 15:11:24,288 | INFO | Generated 613 augmented images.
+2026-07-28 15:11:24,409 | INFO | Final Image Count : 1500
+2026-07-28 15:11:24,410 | INFO | Processing Status : Balanced
+2026-07-28 15:11:24,411 | INFO | ======================================================================
+2026-07-28 15:11:24,412 | INFO | Processing Class : Tomato___Bacterial_spot
+2026-07-28 15:11:24,412 | INFO | ======================================================================
+2026-07-28 15:11:24,875 | INFO | Original Images : 1701
+2026-07-28 15:11:27,845 | INFO | Copy Summary | Copied: 1701 | Skipped: 0 | Failed: 0
+2026-07-28 15:11:28,002 | INFO | Images After Copy : 1701
+2026-07-28 15:11:28,003 | INFO | Required Augmentation : 0
+2026-07-28 15:11:28,003 | INFO | Target already achieved.
+2026-07-28 15:11:28,006 | INFO | ======================================================================
+2026-07-28 15:11:28,006 | INFO | Processing Class : Tomato___Early_blight
+2026-07-28 15:11:28,007 | INFO | ======================================================================
+2026-07-28 15:11:28,211 | INFO | Original Images : 800
+2026-07-28 15:11:29,625 | INFO | Copy Summary | Copied: 800 | Skipped: 0 | Failed: 0
+2026-07-28 15:11:29,702 | INFO | Images After Copy : 800
+2026-07-28 15:11:29,703 | INFO | Required Augmentation : 700
+2026-07-28 15:11:29,704 | INFO | Starting augmentation...
+2026-07-28 15:11:44,823 | INFO | Generated 700 augmented images.
+2026-07-28 15:11:44,955 | INFO | Final Image Count : 1500
+2026-07-28 15:11:44,955 | INFO | Processing Status : Balanced
+2026-07-28 15:11:44,957 | INFO | ======================================================================
+2026-07-28 15:11:44,957 | INFO | Processing Class : Tomato___healthy
+2026-07-28 15:11:44,958 | INFO | ======================================================================
+2026-07-28 15:11:45,277 | INFO | Original Images : 1272
+2026-07-28 15:11:47,670 | INFO | Copy Summary | Copied: 1272 | Skipped: 0 | Failed: 0
+2026-07-28 15:11:47,936 | INFO | Images After Copy : 1272
+2026-07-28 15:11:47,937 | INFO | Required Augmentation : 228
+2026-07-28 15:11:47,938 | INFO | Starting augmentation...
+2026-07-28 15:11:53,656 | INFO | Generated 228 augmented images.
+2026-07-28 15:11:53,792 | INFO | Final Image Count : 1500
+2026-07-28 15:11:53,792 | INFO | Processing Status : Balanced
+2026-07-28 15:11:53,794 | INFO | ======================================================================
+2026-07-28 15:11:53,795 | INFO | Processing Class : Tomato___Late_blight
+2026-07-28 15:11:53,795 | INFO | ======================================================================
+2026-07-28 15:11:54,226 | INFO | Original Images : 1527
+2026-07-28 15:11:56,909 | INFO | Copy Summary | Copied: 1527 | Skipped: 0 | Failed: 0
+2026-07-28 15:11:57,055 | INFO | Images After Copy : 1527
+2026-07-28 15:11:57,057 | INFO | Required Augmentation : 0
+2026-07-28 15:11:57,059 | INFO | Target already achieved.
+2026-07-28 15:11:57,061 | INFO | ======================================================================
+2026-07-28 15:11:57,068 | INFO | Processing Class : Tomato___Leaf_Mold
+2026-07-28 15:11:57,072 | INFO | ======================================================================
+2026-07-28 15:11:57,266 | INFO | Original Images : 761
+2026-07-28 15:11:58,577 | INFO | Copy Summary | Copied: 761 | Skipped: 0 | Failed: 0
+2026-07-28 15:11:58,703 | INFO | Images After Copy : 761
+2026-07-28 15:11:58,705 | INFO | Required Augmentation : 739
+2026-07-28 15:11:58,708 | INFO | Starting augmentation...
+2026-07-28 15:12:12,935 | INFO | Generated 739 augmented images.
+2026-07-28 15:12:13,119 | INFO | Final Image Count : 1500
+2026-07-28 15:12:13,119 | INFO | Processing Status : Balanced
+2026-07-28 15:12:13,121 | INFO | ======================================================================
+2026-07-28 15:12:13,121 | INFO | Processing Class : Tomato___Septoria_leaf_spot
+2026-07-28 15:12:13,122 | INFO | ======================================================================
+2026-07-28 15:12:13,555 | INFO | Original Images : 1416
+2026-07-28 15:12:16,227 | INFO | Copy Summary | Copied: 1416 | Skipped: 0 | Failed: 0
+2026-07-28 15:12:16,380 | INFO | Images After Copy : 1416
+2026-07-28 15:12:16,386 | INFO | Required Augmentation : 84
+2026-07-28 15:12:16,392 | INFO | Starting augmentation...
+2026-07-28 15:12:20,232 | INFO | Generated 84 augmented images.
+2026-07-28 15:12:20,380 | INFO | Final Image Count : 1500
+2026-07-28 15:12:20,381 | INFO | Processing Status : Balanced
+2026-07-28 15:12:20,383 | INFO | ======================================================================
+2026-07-28 15:12:20,383 | INFO | Processing Class : Tomato___Spider_mites Two-spotted_spider_mite
+2026-07-28 15:12:20,384 | INFO | ======================================================================
+2026-07-28 15:12:20,772 | INFO | Original Images : 1340
+2026-07-28 15:12:23,312 | INFO | Copy Summary | Copied: 1340 | Skipped: 0 | Failed: 0
+2026-07-28 15:12:23,444 | INFO | Images After Copy : 1340
+2026-07-28 15:12:23,445 | INFO | Required Augmentation : 160
+2026-07-28 15:12:23,446 | INFO | Starting augmentation...
+2026-07-28 15:12:28,204 | INFO | Generated 160 augmented images.
+2026-07-28 15:12:28,332 | INFO | Final Image Count : 1500
+2026-07-28 15:12:28,332 | INFO | Processing Status : Balanced
+2026-07-28 15:12:28,334 | INFO | ======================================================================
+2026-07-28 15:12:28,334 | INFO | Processing Class : Tomato___Target_Spot
+2026-07-28 15:12:28,335 | INFO | ======================================================================
+2026-07-28 15:12:28,666 | INFO | Original Images : 1123
+2026-07-28 15:12:30,721 | INFO | Copy Summary | Copied: 1123 | Skipped: 0 | Failed: 0
+2026-07-28 15:12:30,827 | INFO | Images After Copy : 1123
+2026-07-28 15:12:30,828 | INFO | Required Augmentation : 377
+2026-07-28 15:12:30,829 | INFO | Starting augmentation...
+2026-07-28 15:12:40,429 | INFO | Generated 377 augmented images.
+2026-07-28 15:12:40,565 | INFO | Final Image Count : 1500
+2026-07-28 15:12:40,566 | INFO | Processing Status : Balanced
+2026-07-28 15:12:40,567 | INFO | ======================================================================
+2026-07-28 15:12:40,568 | INFO | Processing Class : Tomato___Tomato_mosaic_virus
+2026-07-28 15:12:40,568 | INFO | ======================================================================
+2026-07-28 15:12:40,649 | INFO | Original Images : 298
+2026-07-28 15:12:41,198 | INFO | Copy Summary | Copied: 298 | Skipped: 0 | Failed: 0
+2026-07-28 15:12:41,230 | INFO | Images After Copy : 298
+2026-07-28 15:12:41,231 | INFO | Required Augmentation : 1202
+2026-07-28 15:12:41,232 | INFO | Starting augmentation...
+2026-07-28 15:12:56,930 | INFO | Generated 1202 augmented images.
+2026-07-28 15:12:57,068 | INFO | Final Image Count : 1500
+2026-07-28 15:12:57,069 | INFO | Processing Status : Balanced
+2026-07-28 15:12:57,070 | INFO | ======================================================================
+2026-07-28 15:12:57,071 | INFO | Processing Class : Tomato___Tomato_Yellow_Leaf_Curl_Virus
+2026-07-28 15:12:57,072 | INFO | ======================================================================
+2026-07-28 15:12:58,147 | INFO | Original Images : 4285
+2026-07-28 15:13:06,038 | INFO | Copy Summary | Copied: 4285 | Skipped: 0 | Failed: 0
+2026-07-28 15:13:06,478 | INFO | Images After Copy : 4285
+2026-07-28 15:13:06,479 | INFO | Required Augmentation : 0
+2026-07-28 15:13:06,480 | INFO | Target already achieved.
+2026-07-28 15:13:06,486 | INFO | ================================================================================
+2026-07-28 15:13:06,486 | INFO | Dataset Processing Completed
+2026-07-28 15:13:06,488 | INFO | ================================================================================
+2026-07-28 15:13:06,489 | INFO | ================================================================================
+2026-07-28 15:13:06,490 | INFO | Verifying Balanced Dataset
+2026-07-28 15:13:06,491 | INFO | ================================================================================
+2026-07-28 15:13:06,519 | INFO | Classes Processed : 38
+2026-07-28 15:13:06,520 | INFO | Successful Classes : 38
+2026-07-28 15:13:06,520 | INFO | Warning Classes : 0
+2026-07-28 15:13:06,523 | INFO | Failed Classes : 0
+2026-07-28 15:13:06,524 | INFO | Original Images : 43429
+2026-07-28 15:13:06,524 | INFO | Copied Images : 43429
+2026-07-28 15:13:06,525 | INFO | Augmented Images : 22398
+2026-07-28 15:13:06,526 | INFO | Final Images : 65827
+2026-07-28 15:13:06,526 | INFO | Dataset verification completed successfully.
+2026-07-28 15:13:06,531 | INFO | Execution Time : 7 min 56 sec
+2026-07-28 15:13:06,532 | INFO | Pipeline Finished Successfully.
