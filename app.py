@@ -611,6 +611,7 @@ details summary::-webkit-details-marker { display: none; }
 """
 
 
+
 # ==============================================================================
 # Gradio UI
 # ==============================================================================
@@ -695,11 +696,16 @@ def build_ui():
                 )
 
                 # Supported classes accordion
-                with gr.Accordion("📋 Supported Plant & Disease Classes (38)", open=False):
+                with gr.Accordion(
+                    "📋 Supported Plant & Disease Classes (38)",
+                    open=False
+                ):
                     plants_map: dict = {}
+
                     for c in CLASS_NAMES:
                         p, d = fmt_class(c)
                         plants_map.setdefault(p, []).append(d)
+
                     rows_html = "".join(
                         f'<tr style="border-bottom:1px solid #f1f5f9;">'
                         f'<td style="padding:5px 8px;font-weight:600;color:#1e293b !important;white-space:nowrap;">{p}</td>'
@@ -707,6 +713,7 @@ def build_ui():
                         f'</tr>'
                         for p, ds in sorted(plants_map.items())
                     )
+
                     gr.HTML(
                         '<div style="max-height:260px;overflow-y:auto;">'
                         '<table style="width:100%;border-collapse:collapse;font-size:13px;">'
@@ -749,6 +756,7 @@ def build_ui():
                             interactive=False,
                             height=300,
                         )
+
                         gr.HTML(
                             '<div style="font-size:12px;color:#64748b !important;padding:4px 0;">'
                             '🔴 Red/Yellow = high model attention &nbsp;|&nbsp; '
@@ -758,14 +766,26 @@ def build_ui():
                         )
 
                     with gr.Tab("📋 Stage-by-Stage Details"):
-                        gr.HTML('<div style="font-size:13px;font-weight:600;color:#64748b !important;margin-bottom:4px;">'
-                                'Stage 1 — Preprocessing</div>')
+
+                        gr.HTML(
+                            '<div style="font-size:13px;font-weight:600;color:#64748b !important;margin-bottom:4px;">'
+                            'Stage 1 — Preprocessing</div>'
+                        )
+
                         stage1_out = gr.HTML()
-                        gr.HTML('<div style="font-size:13px;font-weight:600;color:#64748b !important;margin:8px 0 4px 0;">'
-                                'Stage 2 — Classification</div>')
+
+                        gr.HTML(
+                            '<div style="font-size:13px;font-weight:600;color:#64748b !important;margin:8px 0 4px 0;">'
+                            'Stage 2 — Classification</div>'
+                        )
+
                         stage2_out = gr.HTML()
-                        gr.HTML('<div style="font-size:13px;font-weight:600;color:#64748b !important;margin:8px 0 4px 0;">'
-                                'Stages 3–5 — XAI · Severity · Recommendation</div>')
+
+                        gr.HTML(
+                            '<div style="font-size:13px;font-weight:600;color:#64748b !important;margin:8px 0 4px 0;">'
+                            'Stages 3–5 — XAI · Severity · Recommendation</div>'
+                        )
+
                         stage_rest = gr.HTML()
 
         # Footer
@@ -774,7 +794,7 @@ def build_ui():
             'border-top:1px solid #e2e8f0;padding-top:12px;margin-top:10px;">'
             'PlantXAI-Net &nbsp;·&nbsp; EfficientNet-B0 · Grad-CAM · XAI '
             '&nbsp;·&nbsp; Author: <b>Gursimran Singh</b> '
-            '&nbsp;·&nbsp; Running locally at <b>http://127.0.0.1:7860</b>'
+            '&nbsp;·&nbsp; Running on Render / Local Server'
             '</div>'
         )
 
@@ -782,22 +802,31 @@ def build_ui():
         analyze_btn.click(
             fn=run_pipeline,
             inputs=[input_image],
-            outputs=[preprocessed_img, gradcam_img, stage1_out, stage2_out, stage_rest, result_panel],
+            outputs=[
+                preprocessed_img,
+                gradcam_img,
+                stage1_out,
+                stage2_out,
+                stage_rest,
+                result_panel,
+            ],
         )
 
     return demo
 
 
 # ==============================================================================
-# Entry Point
+# Entry Point - Render Deployment
 # ==============================================================================
 
 if __name__ == "__main__":
+
     demo = build_ui()
+
     demo.launch(
-        server_name="127.0.0.1",
-        server_port=7860,
+        server_name="0.0.0.0",
+        server_port=int(os.environ.get("PORT", 10000)),
         share=False,
-        inbrowser=True,     # Opens browser automatically
+        inbrowser=False,
         show_error=True,
     )

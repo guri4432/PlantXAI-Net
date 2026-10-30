@@ -25,3 +25,5 @@ models/checkpoints/*.pth
 
 # Local Gradio state
 .gradio/
+# Allow the trained model required for Render deployment
+!models/checkpoints/last_checkpoint.pth
