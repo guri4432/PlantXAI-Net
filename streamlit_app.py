@@ -23,7 +23,6 @@ st.set_page_config(
 @st.cache_resource(show_spinner="Loading PlantXAI-Net EfficientNet-B0 model...")
 def load_pipeline():
     import torch
-    torch.set_num_threads(1)
     torch.set_num_interop_threads(1)
     import app as plantxai
     return plantxai
